@@ -1,0 +1,50 @@
+{
+    "version": "2.0",
+    "routeKey": "ANY /download-object-csv",
+    "rawPath": "/default/download-object-csv",
+    "rawQueryString": "file_key=teste",
+    "cookies": [
+      "awsccc=eyJlIjoxLCJwIjoxLCJmIjoxLCJhIjoxLCJpIjoiZDA5OGQwNjgtZGMzMi00YjA5LWI4ZDgtMWRjNTMxYmZiZmZlIiwidiI6IjEifQ=="
+    ],
+    "headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "content-length": "0",
+      "host": "umzv6ao484.execute-api.us-east-2.amazonaws.com",
+      "sec-ch-ua": "",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+      "x-amzn-trace-id": "Root=1-608c32d7-5bb0acdb1154698f600e71ab",
+      "x-forwarded-for": "187.38.62.225",
+      "x-forwarded-port": "443",
+      "x-forwarded-proto": "https"
+    },
+    "queryStringParameters": {
+      "file_key": "teste"
+    },
+    "requestContext": {
+      "accountId": "634332953346",
+      "apiId": "umzv6ao484",
+      "domainName": "umzv6ao484.execute-api.us-east-2.amazonaws.com",
+      "domainPrefix": "umzv6ao484",
+      "http": {
+        "method": "GET",
+        "path": "/default/download-object-csv",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "187.38.62.225",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+      },
+      "requestId": "emzhpgPZCYcEJNA=",
+      "routeKey": "ANY /download-object-csv",
+      "stage": "default",
+      "time": "30/Apr/2021:16:39:51 +0000",
+      "timeEpoch": 1619800791274
+    },
+    "isBase64Encoded": false
+  }

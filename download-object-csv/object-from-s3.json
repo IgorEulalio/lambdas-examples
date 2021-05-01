@@ -1,0 +1,31 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "P26Q9DCYF04KP93W",
+        "HostId": "eNNSXWDae2xEqnTfZnvc0uOCd15pouZfHjUmYQ1J+C9gqIb7YjRTZYcezJW0/vhAJPPVJr/lQoI=",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "eNNSXWDae2xEqnTfZnvc0uOCd15pouZfHjUmYQ1J+C9gqIb7YjRTZYcezJW0/vhAJPPVJr/lQoI=",
+            "x-amz-request-id": "P26Q9DCYF04KP93W",
+            "date": "Fri, 30 Apr 2021 18:07:31 GMT",
+            "last-modified": "Thu, 29 Apr 2021 19:00:36 GMT",
+            "etag": ""2ed8618846eb86e9a1b3036824c2befd"",
+            "accept-ranges": "bytes",
+            "content-type": "text/csv",
+            "content-length": "122971896",
+            "server": "AmazonS3"
+        },
+        "RetryAttempts": 1
+    },
+    "AcceptRanges": "bytes",
+    "LastModified": datetime.datetime(2021,
+    4,
+    29,
+    19,
+    0,
+    36, tzinfo=tzutc()),
+    "ContentLength": 122971896,
+    "ETag": ""2ed8618846eb86e9a1b3036824c2befd"",
+    "ContentType": "text/csv",
+    "Metadata": {},
+    "Body": "<botocore.response.StreamingBody object at 0x7f23e54975e0>"
+}
