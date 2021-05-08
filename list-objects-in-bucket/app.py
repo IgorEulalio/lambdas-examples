@@ -1,3 +1,4 @@
+import json
 import boto3
 import os
 
@@ -9,9 +10,17 @@ def lambda_handler(event, context):
     object_names = []
     
     objects = s3.list_objects(Bucket=bucket)
-    content = objects["Contents"]
+    
+    try:
+        content = objects["Contents"]
+        
+    except Exception as e:
+        return "Bucket: " + bucket + " is empty."
+        
     for obj in content:
         object_names.append(obj["Key"])
         print(obj)
     
     return object_names
+    
+    
