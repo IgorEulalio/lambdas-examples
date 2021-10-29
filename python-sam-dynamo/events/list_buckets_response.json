@@ -1,0 +1,20 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "f71a7647-ce52-4365-9d91-9cabbb343458",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "content-type": "application/x-amz-json-1.0",
+            "content-length": "2",
+            "x-amz-crc32": "2745614147",
+            "x-amzn-requestid": "f71a7647-ce52-4365-9d91-9cabbb343458",
+            "connection": "close",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "HEAD,GET,PUT,POST,DELETE,OPTIONS,PATCH",
+            "access-control-allow-headers": "authorization,content-type,content-length,content-md5,cache-control,x-amz-content-sha256,x-amz-date,x-amz-security-token,x-amz-user-agent,x-amz-target,x-amz-acl,x-amz-version-id,x-localstack-target,x-amz-tagging",
+            "access-control-expose-headers": "x-amz-version-id",
+            "date": "Thu, 28 Oct 2021 23:18:03 GMT",
+            "server": "hypercorn-h11"
+        },
+        "RetryAttempts": 0
+    }
+}

@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "readfromdynamodb"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15rfhs9wp5mad"
+s3_prefix = "readfromdynamodb"
+region = "sa-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"

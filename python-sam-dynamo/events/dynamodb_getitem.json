@@ -1,0 +1,22 @@
+{
+    "Item": {
+        "AlbumTitle": "Songs About Life",
+        "Awards": Decimal("10"),
+        "Artist": "Acme Band",
+        "SongTitle": "Happy Day"
+    },
+    "ResponseMetadata": {
+        "RequestId": "LS8TR9D5QIRR9I44BD023S72SJVV4KQNSO5AEMVJF66Q9ASUAAJG",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Fri, 29 Oct 2021 00:01:46 GMT",
+            "content-type": "application/x-amz-json-1.0",
+            "content-length": "125",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "LS8TR9D5QIRR9I44BD023S72SJVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32": "3894370682"
+        },
+        "RetryAttempts": 0
+    }
+}

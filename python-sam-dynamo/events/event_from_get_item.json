@@ -1,0 +1,14 @@
+{
+    "stock_id": {
+        "S": "1"
+    },
+    "stock_name": {
+        "S": "APPL"
+    },
+    "stock_value": {
+        "S": "R$16,32"
+    },
+    "stock_quotes": {
+        "N": "21"
+    }
+}
