@@ -6,8 +6,12 @@ from botocore.exceptions import ClientError
 client = boto3.resource('dynamodb')
 
 def lambda_handler(event, context):
+    
+    received_ip = event["headers"]["X-Forwarded-For"]
     print("iniciando lambda..")
     item = get_item_dynamo()
+
+    print("received ip: " + str(received_ip))
 
     print(item)
 
@@ -16,7 +20,8 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": album_title,
+            "message": "bem vindo victor",
+            "ip": str(received_ip)
         }),
     }
 
