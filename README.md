@@ -1,0 +1,1 @@
+Test from SSH - Rosseta 2.0.
